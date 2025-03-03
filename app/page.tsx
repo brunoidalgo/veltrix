@@ -6,6 +6,7 @@ import Testimonials from "@/components/testimonials"
 import ContactForm from "@/components/contact-form"
 import Footer from "@/components/footer"
 import FloatingNavbar from "@/components/floating-navbar"
+import WhatsappButton from "@/components/whatsapp-button"
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <CaseStudies />
       <Testimonials />
       <ContactForm />
+      <WhatsappButton />
       <Footer />
     </main>
   )
