@@ -81,13 +81,13 @@ function NavLinks({ className, onClick }: NavLinksProps) {
       <Link href="/" className="text-foreground transition-colors hover:text-primary" onClick={onClick}>
         Início
       </Link>
-      <Link href="/about" className="text-foreground transition-colors hover:text-primary" onClick={onClick}>
+      <Link href="#about" className="text-foreground transition-colors hover:text-primary" onClick={onClick}>
         Sobre
       </Link>
-      <Link href="/services" className="text-foreground transition-colors hover:text-primary" onClick={onClick}>
+      <Link href="#services" className="text-foreground transition-colors hover:text-primary" onClick={onClick}>
         Serviços
       </Link>
-      <Link href="/contact" className="text-foreground transition-colors hover:text-primary" onClick={onClick}>
+      <Link href="#contact" className="text-foreground transition-colors hover:text-primary" onClick={onClick}>
         Contato
       </Link>
     </div>

@@ -105,8 +105,10 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex items-center">
-                <Phone className="mr-3 h-5 w-5 text-gray-400 flex-shrink-0" />
-                <span className="text-gray-400">(16) 99261-1641</span>
+                <Link className="flex" href={"https://wa.me/+5516992611641"}>
+                  <Phone className="mr-3 h-5 w-5 text-gray-400 flex-shrink-0" />
+                  <span className="text-gray-400">(16) 99261-1641</span>
+                </Link>
               </li>
               <li className="flex items-center">
                 <Mail className="mr-3 h-5 w-5 text-gray-400 flex-shrink-0" />

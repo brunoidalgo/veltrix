@@ -6,23 +6,21 @@ import { ChevronLeft, ChevronRight, Quote } from "lucide-react"
 const testimonials = [
   {
     id: 1,
-    quote: "PULSE is extraordinary and, without a doubt, the best agency we've had the opportunity to work with.",
-    author: "Sarah Johnson",
-    position: "CEO, TechVision Inc.",
+    quote: "O Bruno da Veltrix tem um serviço de exelência é a empresa que mudou tudo para mim no Turismo, começei bem menor do que sou hoje com eles e cresci muito!",
+    author: "Isias Turismo",
+    position: "Empreendedor, Isaias Turismo.",
   },
   {
     id: 2,
-    quote:
-      "The team at PULSE doesn't just deliver results – they become an extension of your business. Their strategic approach transformed our digital presence.",
-    author: "Michael Chen",
-    position: "Marketing Director, GrowthWave",
+    quote: "O Bruno da Veltrix tem um serviço de exelência é a empresa que mudou tudo para mim no Turismo, começei bem menor do que sou hoje com eles e cresci muito!",
+    author: "Isias Turismo",
+    position: "Empreendedor, Isaias Turismo.",
   },
   {
     id: 3,
-    quote:
-      "Working with PULSE has been a game-changer for our business. Their data-driven approach and creative strategies have consistently delivered exceptional ROI.",
-    author: "Jessica Martinez",
-    position: "Founder, Elevate Retail",
+    quote: "O Bruno da Veltrix tem um serviço de exelência é a empresa que mudou tudo para mim no Turismo, começei bem menor do que sou hoje com eles e cresci muito!",
+    author: "Isias Turismo",
+    position: "Empreendedor, Isaias Turismo.",
   },
 ]
 
@@ -52,7 +50,7 @@ export default function Testimonials() {
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">O que dizem nossos clientes ?</h2>
           <p className="text-blue-100 max-w-2xl mx-auto">
-            Don't just take our word for it – hear from the businesses we've helped grow
+            Conheça a opinião de nossos clientes sobre o nosso trabalho e o impacto que tivemos em seus negócios.
           </p>
         </div>
 
