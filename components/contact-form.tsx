@@ -107,7 +107,7 @@ export default function ContactForm() {
                     <label htmlFor="money" className="text-sm font-medium text-gray-700">
                       Faturamento Mensal *
                     </label>
-                    <select id="money" name="money" required className="text-black flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" onChange={handleChange}>
+                    <select id="money" name="money" required className="text-gray-700 flex h-10 w-full rounded-md border border-input px-3 py-2 text-sm file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" onChange={handleChange}>
                       <option value="Selecione...">Selecione...</option>
                       <option value="Selecione...">Até 10 Mil</option>
                       <option value="Selecione...">De 10 Mil à 20 Mil</option>
@@ -175,15 +175,13 @@ export default function ContactForm() {
                     className="w-full min-h-[150px]"
                   />
                 </div>
-
                 <Button
                   type="submit"
                   className="w-full bg-blue-600 hover:bg-blue-700 text-white py-3"
                   disabled={isSubmitting}
                 >
-                  {isSubmitting ? "Sending..." : "Send Message"}
+                  {isSubmitting ? "Agendando..." : "Agendar Reunião"}
                 </Button>
-
                 <p className="text-xs text-gray-500 text-center">
                   Ao enviar esse formulário você concorda com{" "}
                   <a href="#" className="underline">
